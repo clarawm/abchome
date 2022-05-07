@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+*{
+    font-family: Questrial;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-weight: 400;
+}
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --primary: #FEDFA3;
+    --secondary: #2F0961;
+    --third: #EDF4FB;
+}
+header{
+    display: flex;
+    border-bottom: 0.5rem solid var(--secondary);
+}
+header picture img {
+    height: 5rem;
+}
+
+header div a{
+    margin: 0 2rem;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+header ul {
+    align-items: center;
+}
+header ul li { 
+    margin: 0 1.5rem;
+}
+/*login-cadastro*/header ul li a {
+    text-decoration-line: none;
+    font-size: 1.3rem;
+    color: var(--black);
+}
+.mainn {
+    /*inicio/ajuda*/
+    text-decoration-line: underline;
+    text-decoration-color: #7A1DC7;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 0.09rem;
+}
+main{
+    min-height: 84vh;
+}
+
+footer {
+    background-color: var(--secondary);
+    height: 4rem;
+}
+footer div {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+.content {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+/*Specific main*/
+main > picture.main > img {
+    width: 100%;
+}
+footer div a{
+    margin: 0 0.6rem;
+}
+main > section.main {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 0.5rem;
+}
+/*card*/
+.card {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-color: #370B70;
+    border-width: 0.04rem;
+    padding: 1rem;
+}
+.card > div > span {
+    background-color: #EDF4FB;
+    border-radius: 0.5rem;
+    padding: 0.02;
+    margin: 1rem 0 0 1rem;
+}
+h3, h4 {
+    text-align: center; /*alinha o texto do card*/
+}
+
