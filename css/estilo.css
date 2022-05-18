@@ -73,6 +73,8 @@ footer div {
 }
 .content {
   width: 100%;
+  flex-direction: column;
+  align-items: center;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -120,17 +122,50 @@ h2 {
 .titulo_book {
   margin-top: 180px;
 }
-/*Specific Cadastro*/
+
+/* Specific Login */
 main > section.auth {
-  height: 84vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-main > section.auth > h1 {
-  color: #370b70;
-  font-weight: 500;
-  margin-bottom: 2rem;
-  font-size: 2rem;
-}
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.cadastro_img {
+    align-self: center;
+    margin-bottom: 10px;
+  }
+  main > section.auth > h1 {
+    color: #370b70;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  main > section.auth > form {
+    background-color: #D1C3E3;
+    border: 0.2rem solid var(--secondary);
+    border-radius: 1rem;
+    padding: 1.5rem;
+  }
+  main > section.auth > form > div {
+    background-color: var(--white);
+    border: 0.20rem solid var(--secondary);
+    border-radius: 0.6rem;
+    display: flex;
+    margin: 0.30rem 0;
+  }
+  main > section.auth > form > div > img {
+    height: 2.5rem;
+    padding: 0.3rem;
+  }
+  main > section.auth > form > div > input {
+    width: 100%;
+    font-size: 1rem;
+    border: 0;
+    background-color: transparent;
+  }
+  main > section.auth > form > p > a {
+    text-decoration: none;
+    color: #7A1DC7;
+    font-weight: 500;
+  }
