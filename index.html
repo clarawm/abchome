@@ -1,73 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>book.</title>  <!--NOME DO SITE-->
-        <link rel="stylesheet" href="css/estilo.css"/>  <!--INCLUIR CSS--> 
-    </head>
-    <body>
-        <header>
-            <picture> 
+ 
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>book.</title>
+   <!--NOME DO SITE-->
+   <link rel="stylesheet" href="css/estilo.css" />
+   <!--INCLUIR CSS-->
+</head>
+ 
+<body>
+   <header>
+       <picture>
+           <div>
+               <a> <img src="./logo img/Group 8.png" alt="logo">
+               </a>
+           </div>
+       </picture>
+       <nav>
+           <div>
+               <ul>
+                   <li class="mainn">
+                       <a href="">Sobre</a>
+                   </li>
+                   <li class="mainn">
+                       <a href="index.html">Início</a>
+                   </li>
+                   <li class="mainn">
+                       <a href="">Ajuda</a>
+                   </li>
+               </ul>
+           </div>
+           <div>
+               <ul>
+                   <li>
+                       <a href="cadastro.html">Cadastro</a>
+                   </li>
+                   <li>
+                       <a href="login.html">Login</a>
+                   </li>
+               </ul>
+           </div>
+       </nav>
+   </header>
+   <main>
+       <div class="direita;">
+           <picture>
+               <img src="./img1/image 2.png" alt="Imagem principal" />
+           </picture>
+       </div>
+ 
+       <div class="esquerda";>
+           <picture class="titulo_book">
+               <img src="./logo img/book..png" alt="Imagem book" />
+           </picture>
+           <section class="card" style="display:inline-block; float: inherit; vertical-align: middle;">
+               <h2>Nome do usuário</h2>
+               <h3>usuario_</h3>
+               <form action="cadastrar.html" method="post">
+                <label for="senha">Senha</label>
                 <div>
-                    <a> <img src="./logo img/Group 8.png" alt="logo">
-                    </a>
+                  <img src="./ic login/key 2.png" alt="Ícone chave" />
+                  <input type="password" name="senha" id="senha" />
                 </div>
-            </picture>
-            <nav>
-                <ul>
-                        <li class="mainn">
-                            <a href="">Sobre</a>
-                        </li>
-                        <li class="mainn">    
-                            <a href="">Início</a> 
-                        </li>
-                        <li class="mainn">      
-                            <a href="">Ajuda</a>
-                        </li>     
-                    <li>
-                      <a href="">Cadastro</a>
-                    </li>
-                    <li>
-                      <a href="">Login</a>
-                    </li>
-                  </ul>
-            </nav>
-        </header>
-        <main> <!-- class="content"Parte que centraliza a img principal-->
-            <picture>
-                <img src="./img1/image 2.png" alt="Imagem principal" />
-            </picture>
-             <div style="float: right;">
-                <picture>
-                        <img src="./logo img/book..png" alt="Imagem book"/>
-                    
-                </picture>
-            </div>    
-            <section class="card" style="display:inline-block; float: right; vertical-align: middle;">
-                    <h2>Nome do usuário</h2>
-                    <h3>usuario_</h3>
-                    <div>
-                        <span>Senha</span>
-                    </div>
-                    <div>
-                            <span>Entrar</span>
-                    </div>
-            </section>
-        </main>
-        <footer>
-            <div> <!-- class="content" Parte que centraliza os ícons com a img-->
-                <a href="https://discord.com/" target="_blank">
-                    <img src="./ícones/discord 1.svg" alt="Ícone-discord" />
-                </a>
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img src="./ícones/instagram 1.svg" alt="Ícone-instagram" /> 
-                </a>
-                <a href="https://twitter.com/login?lang=pt" target="_blank">
-                    <img src="./ícones/twitter 1.svg" alt="Ícone-Twitter" /> 
-                </a>
-            </div>
-        </footer>
-    </body>
-</html> 
+               <div>
+                <button type="submit">Entrar</button>
+               </div>
+           </section>
+       </div>
+   </main>
+   <footer>
+       <div>
+           <!-- class="content" Parte que centraliza os ícons com a img-->
+           <a href="https://discord.com/" target="_blank">
+               <img src="./ícones/discord 1.svg" alt="Ícone-discord" />
+           </a>
+           <a href="https://www.instagram.com/" target="_blank">
+               <img src="./ícones/instagram 1.svg" alt="Ícone-instagram" />
+           </a>
+           <a href="https://twitter.com/login?lang=pt" target="_blank">
+               <img src="./ícones/twitter 1.svg" alt="Ícone-Twitter" />
+           </a>
+       </div>
+   </footer>
+</body>
+ 
+</html>
