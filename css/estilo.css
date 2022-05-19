@@ -16,6 +16,9 @@
 }
 header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
   border-bottom: 0.5rem solid var(--secondary);
 }
 header picture img {
@@ -25,17 +28,29 @@ header picture img {
 header div a {
   margin: 0 2rem;
 }
-
+.nav_links {
+  list-style-type: none;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.bot {
+  padding: 9px 25px;
+  background-color: transparent;
+  border:#370b70;
+  border-radius: 50px;
+}
 header nav {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-header nav ul {
+/*header nav ul {
   list-style-type: none;
   display: flex;
   align-items: center;
-}
+}*/
 
 header ul {
   align-items: center;
@@ -45,19 +60,13 @@ header ul li {
 }
 header ul li a {
   /*login-cadastro*/
-  text-decoration-line: none;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: #7a1dc7;
   font-size: 1.3rem;
   color: var(--black);
 }
-.mainn {
-  /*inicio/ajuda*/
-  margin: 2rem;
-  text-decoration-color: #7a1dc7;
-  text-decoration-line: underline;
-  text-decoration-style: dashed;
-  text-decoration-thickness: 0.09rem;
-  align-items: center;
-}
+
 main {
   min-height: 84vh;
 }
